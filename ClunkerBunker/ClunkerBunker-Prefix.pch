@@ -1,0 +1,23 @@
+//
+//  ClunkerBunker-Prefix.pch
+//  ClunkerBunker
+//
+//  Created by Mindpace on 17/02/16.
+//  Copyright (c) 2016 Mindpace. All rights reserved.
+//
+
+#ifndef ClunkerBunker_ClunkerBunker_Prefix_pch
+#define ClunkerBunker_ClunkerBunker_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "SuperViewController.h"
+#import "AppDelegate.h"
+#import "SWRevealViewController.h"
+
+#import "ClunkerBunker-Constant.h"
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+#endif

@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="EventDetails" syncable="YES">
+        <attribute name="eventAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventContactEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventCost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDistence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventFacebookLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventWeblink" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventsCreatedByMe" syncable="YES">
+        <attribute name="eventAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventContactMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventCost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventFacebookPage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTag3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventWebsite" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProfileDetails" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reg_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EventDetails" positionX="-54" positionY="36" width="128" height="300"/>
+        <element name="EventsCreatedByMe" positionX="-36" positionY="153" width="128" height="255"/>
+        <element name="ProfileDetails" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
 </model>
